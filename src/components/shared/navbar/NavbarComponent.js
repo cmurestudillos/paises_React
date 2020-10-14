@@ -11,8 +11,8 @@ class NavbarComponent extends Component{
         console.log('NavbarComponent.js - Metodo render()');
         return(
           <div>
-            <Navbar expand="lg" type="light" className="navbar navbar-expand-lg navbar-dark bg-custom">
-              <Navbar.Brand><img src={logo} alt="Logo" title="Logo" width="65" height="65" /></Navbar.Brand>
+            <Navbar expand="lg" type="light" className="navbar navbar-expand-lg navbar-light bg-custom">
+              <Navbar.Brand><img src={logo} alt="Logo" title="Logo" width="55" height="55" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
